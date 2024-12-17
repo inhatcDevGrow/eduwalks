@@ -1059,3 +1059,8 @@ urlpatterns += [
 urlpatterns += [
     path('api/notifications/', include('openedx.core.djangoapps.notifications.urls')),
 ]
+
+#custom API urls
+urlpatterns += [
+    path('api/restapitest/', include('lms.djangoapps.rest_api_test.urls')),
+]

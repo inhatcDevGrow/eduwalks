@@ -3305,6 +3305,9 @@ INSTALLED_APPS = [
 
     # Notifications
     'openedx.core.djangoapps.notifications',
+
+    #Custom API
+    'lms.djangoapps.rest_api_test',
 ]
 
 ######################### CSRF #########################################

@@ -57,7 +57,7 @@ babel==2.11.0
     #   enmerkar-underscore
 backoff==1.10.0
     # via analytics-python
-backports-zoneinfo[tzdata]==0.2.1
+#backports-zoneinfo[tzdata]==0.2.1
     # via
     #   celery
     #   django
@@ -737,7 +737,7 @@ multidict==6.0.4
     # via
     #   aiohttp
     #   yarl
-mysqlclient==2.2.0
+mysqlclient>=2.0.0
     # via
     #   -r requirements/edx/kernel.in
     #   openedx-blockstore
